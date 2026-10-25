@@ -129,6 +129,7 @@ choice BOARD_TYPE
     default BOARD_TYPE_XMINI_C3_V3 if IDF_TARGET_ESP32C3
     default BOARD_TYPE_ESP_SENSAIRSHUTTLE if IDF_TARGET_ESP32C5
     default BOARD_TYPE_WAVESHARE_ESP32_C6_TOUCH_AMOLED_2_06 if IDF_TARGET_ESP32C6
+    default BOARD_TYPE_MINZI_S3 if IDF_TARGET_ESP32S3
     default BOARD_TYPE_BREAD_COMPACT_WIFI if IDF_TARGET_ESP32S3
     default BOARD_TYPE_ESP32_P4_FUNCTION_EV_BOARD if IDF_TARGET_ESP32P4
     default BOARD_TYPE_ESP32_S31_FUNCTION_COREBOARD_1 if IDF_TARGET_ESP32S31
@@ -142,44 +143,23 @@ choice BOARD_TYPE
     config BOARD_TYPE_ATK_DNESP32S3
         bool "Alientek ATK-DNESP32S3 Development Board (æ­£ç‚¹åŽŸå­)"
         depends on IDF_TARGET_ESP32S3
-    config BOARD_TYPE_MINZI_S3
-        bool "Minzi ESP32-S3 N16R8 + ST7735 128x160"
-        depends on IDF_TARGET_ESP32S3
     config BOARD_TYPE_ATK_DNESP32S3_BOX
         bool "Alientek ATK-DNESP32S3-BOX (æ­£ç‚¹åŽŸå­)"
-        depends on IDF_TARGET_ESP32S3
-    config BOARD_TYPE_MINZI_S3
-        bool "Minzi ESP32-S3 N16R8 + ST7735 128x160"
         depends on IDF_TARGET_ESP32S3
     config BOARD_TYPE_ATK_DNESP32S3_BOX0
         bool "Alientek ATK-DNESP32S3-BOX0 (æ­£ç‚¹åŽŸå­)"
         depends on IDF_TARGET_ESP32S3
-    config BOARD_TYPE_MINZI_S3
-        bool "Minzi ESP32-S3 N16R8 + ST7735 128x160"
-        depends on IDF_TARGET_ESP32S3
     config BOARD_TYPE_ATK_DNESP32S3_BOX2_4G
         bool "Alientek ATK-DNESP32S3-BOX2 4G (æ­£ç‚¹åŽŸå­)"
-        depends on IDF_TARGET_ESP32S3
-    config BOARD_TYPE_MINZI_S3
-        bool "Minzi ESP32-S3 N16R8 + ST7735 128x160"
         depends on IDF_TARGET_ESP32S3
     config BOARD_TYPE_ATK_DNESP32S3_BOX2_WIFI
         bool "Alientek ATK-DNESP32S3-BOX2 Wi-Fi (æ­£ç‚¹åŽŸå­)"
         depends on IDF_TARGET_ESP32S3
-    config BOARD_TYPE_MINZI_S3
-        bool "Minzi ESP32-S3 N16R8 + ST7735 128x160"
-        depends on IDF_TARGET_ESP32S3
     config BOARD_TYPE_ATK_DNESP32S3_BOX3
         bool "Alientek ATK-DNESP32S3-BOX3 (æ­£ç‚¹åŽŸå­)"
         depends on IDF_TARGET_ESP32S3
-    config BOARD_TYPE_MINZI_S3
-        bool "Minzi ESP32-S3 N16R8 + ST7735 128x160"
-        depends on IDF_TARGET_ESP32S3
     config BOARD_TYPE_ATK_DNESP32S3M_4G
         bool "Alientek ATK-DNESP32S3M 4G (æ­£ç‚¹åŽŸå­)"
-        depends on IDF_TARGET_ESP32S3
-    config BOARD_TYPE_MINZI_S3
-        bool "Minzi ESP32-S3 N16R8 + ST7735 128x160"
         depends on IDF_TARGET_ESP32S3
     config BOARD_TYPE_ATK_DNESP32S3M_WIFI
         bool "Alientek ATK-DNESP32S3M Wi-Fi (æ­£ç‚¹åŽŸå­)"
