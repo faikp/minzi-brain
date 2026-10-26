@@ -4,6 +4,11 @@
   "selection_basis": "Representative chip, network, display and audio build paths across widely used boards.",
   "variants": [
     {
+      "board": "minzi-s3",
+      "name": "minzi-s3",
+      "reason": "Minzi ESP32-S3 N16R8 custom board; ST7735 SPI display and simplex I2S audio"
+    },
+    {
       "board": "xmini/c3",
       "name": "xmini-c3",
       "reason": "Most active C3 board; OLED, lightweight wake word detection and power saving"

@@ -5,7 +5,9 @@
   "builds": [
     {
       "name": "minzi-s3",
-      "sdkconfig_append": []
+      "sdkconfig_append": [
+        "CONFIG_BOARD_TYPE_MINZI_S3=y"
+      ]
     }
   ]
 }
